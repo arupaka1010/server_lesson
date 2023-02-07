@@ -1,0 +1,59 @@
+    1  cd /home
+    2  ls
+    3  cat README.md
+    4  cd ../
+    5  ls
+    6  cd /home
+    7  ls
+    8  cd /root 
+    9  ls
+   10  cd server_lesson
+   11  ls
+   12  cat README.md
+   13  cd ../
+   14  ls
+   15  cd server_lesson
+   16  ls
+   17  mkdir -p linux_practice2/documents
+   18  ls
+   19  cd linux_practice2/documents
+   20  touch gizumo{01..50}.md
+   21  ls]
+   22  ls
+   23  mv gizumo2*.md gizumo3*.md gizumo4*.md trash/. 
+   24  cd ../
+   25  mkdir trash
+   26  ls
+   27  mv gizumo2*.md gizumo3*.md gizumo4*.md trash
+   28  ls
+   29  cd documentos
+   30  ls
+   31  cd documnets
+   32  cd documents
+   33  mv gizumo2*.md gizumo3*.md gizumo4*.md trash
+   34  mv gizumo2*.md gizumo3*.md gizumo4*.md trash/.
+   35  mv gizumo2*.md gizumo3*.md gizumo4*.md ../trash
+   36  cd ../
+   37  ls
+   38  cd documents
+   39  ls
+   40  cd ../
+   41  cd trash
+   42  ls
+   43  mv gizumo4*.md ../documents
+   44  cd ../
+   45  ls
+   46  cd documents
+   47  ls
+   48  mv gizumo40.md ../trash
+   49  ls
+   50  cd ../
+   51  ls
+   52  touch .gitignore
+   53  ls
+   54  ls
+   55  ls
+   56  ls -a
+   57  vi .gitignore
+   58  cat .gitignore
+   59  touch exec_command.log && history 300 >> exec_command.log
